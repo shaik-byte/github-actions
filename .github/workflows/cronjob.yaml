@@ -1,9 +1,9 @@
 name: Hours based Scheduled Job
 
-on:
-  push: 
-  schedule:
-    - cron: '* 1 * * *' 
+# on:
+#   push: 
+#   schedule:
+#     - cron: '* 1 * * *' 
 
 jobs:
   run-hourly-task:
